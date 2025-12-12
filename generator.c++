@@ -2,7 +2,7 @@
 #include <cstdlib>
 
 int main() {
-    int N = 300; // matrix size (change to 500, 800, etc.)
+    int N = 300;
     std::ofstream out("input.txt");
 
     out << N << " " << N << " " << N << "\n";

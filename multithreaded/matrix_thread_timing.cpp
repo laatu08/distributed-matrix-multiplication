@@ -91,7 +91,6 @@ int main() {
     double multi_time =
         chrono::duration<double>(end_multi - start_multi).count();
 
-    /* ---------- RESULTS ---------- */
     cout << "\nPerformance Results\n";
     cout << "-------------------\n";
     cout << "Matrix size: " << N << " x " << M << " * " << M << " x " << P << "\n";
